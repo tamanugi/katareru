@@ -2,7 +2,7 @@ defmodule KatareruWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", KatareruWeb.RoomChannel
+  channel "room:*", KatareruWeb.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
