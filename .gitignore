@@ -28,3 +28,4 @@ npm-debug.log
 
 # elm module dir
 assets/elm/elm-stuff
+assets/js/main.js
